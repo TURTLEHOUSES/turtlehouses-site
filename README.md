@@ -4,6 +4,6 @@ Site da Turtle Houses, Lda em HTML, CSS e JavaScript, sem WordPress. Foi gerado 
 
 - `index.html` é a página inicial e cada pasta (`conceito/`, `contactos/`, ...) é uma página.
 - `tema/` tem o CSS, o JavaScript, as imagens e as fontes.
-- `main/` reencaminha os endereços antigos (`/main/` e `/main/?turtle_preview=...`) para os novos.
+- `main/` é uma cópia da página inicial. O site antigo reencaminhava `/` para `/main/` com um 301, que os browsers guardam, por isso `/main/` não pode reencaminhar para `/` (ficava em ciclo). Só `/main/?turtle_preview=...` reencaminha para a página nova. Ao mudar a página inicial, mude também esta cópia.
 
 Para mudar um texto, edita-se o `index.html` da página e faz-se commit. O GitHub Pages publica em cerca de um minuto.
