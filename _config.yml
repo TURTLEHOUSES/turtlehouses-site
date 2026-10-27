@@ -1,0 +1,3 @@
+# O GitHub Pages monta o site com o Jekyll: junta os moldes das páginas com os textos de _data/.
+exclude:
+  - README.md

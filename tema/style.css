@@ -77,3 +77,6 @@ html,body{margin:0;min-width:0!important}body{background:#faf9f5}*{box-sizing:bo
  -webkit-text-fill-color: #fff !important;
 }
 .th-toggle:hover { background-color: #edf5f1; }
+
+/* Parágrafo vazio criado no editor de conteúdos: ocupa uma linha, como no original */
+.th-txt:empty::before{content:"\00a0"}
