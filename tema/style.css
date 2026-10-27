@@ -1,0 +1,79 @@
+/*
+Theme Name: Turtle Houses
+Theme URI: https://turtlehouses.pt
+Author: Turtle Houses
+Description: Reprodução da maquete Turtle Houses, com recursos locais, páginas importáveis e galerias independentes.
+Version: 1.0.3
+Requires at least: 4.9
+Requires PHP: 7.4
+Text Domain: turtle-houses
+*/
+html,body{margin:0;min-width:0!important}body{background:#faf9f5}*{box-sizing:border-box}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a:focus-visible,button:focus-visible{outline:3px solid #286859;outline-offset:5px}#SITE_HEADER.th-header{position:relative;z-index:100;display:flex;align-items:center;justify-content:space-between;width:100%;height:123px;min-height:123px;padding:0 max(30px,calc((100vw - 1098px)/2));background:#fff;box-sizing:border-box;grid-area:1/1/2/2}.th-logo{display:block;flex-shrink:0}.th-logo img{width:212px;height:auto;display:block}#th-nav{display:flex;align-items:center;gap:44px;font:500 16px barlow,Arial,sans-serif;letter-spacing:1px;color:#252922}#th-nav a,#th-nav button{font:inherit;color:inherit;text-decoration:none;white-space:nowrap}#th-nav a:hover,#th-nav a[aria-current=page],#th-nav button:hover{color:#7dac9e}.th-drop{position:relative}.th-drop>button{background:none;border:0;padding:16px 0}.th-sub{display:none;position:absolute;top:100%;left:-18px;min-width:240px;background:white;box-shadow:0 8px 20px #0002;padding:12px 0;letter-spacing:0}.th-sub a{display:block;padding:12px 18px!important;font-size:15px!important}.th-drop.open .th-sub,.th-drop:focus-within .th-sub,.th-drop:hover .th-sub{display:block}#th-nav .th-contact{padding:7px 28px;border:1px solid #c1b670;background:#7dac9e;border-radius:6px;color:#4b5847;font-weight:600;letter-spacing:0}.th-toggle{display:none}wow-image{display:block}#SITE_PAGES{opacity:1!important}.th-gallery{height:100%;width:100%;display:flex;flex-direction:column;gap:12px;overflow:hidden}.th-gallery-main{height:calc(100% - 108px);min-height:180px;flex:1;border:0;background:transparent;padding:0;width:100%}.th-gallery-main img{width:100%;height:100%;object-fit:cover;display:block}.th-thumbnails{display:flex;gap:12px;overflow-x:auto;padding:4px 0}.th-thumbnails button{flex:0 0 90px;height:90px;padding:0;border:2px solid transparent;background:none}.th-thumbnails button:hover,.th-thumbnails button.selected{border-color:#7dac9e}.th-thumbnails img{width:100%;height:100%;object-fit:cover}.th-map-link{display:flex;min-height:220px;height:100%;align-items:center;justify-content:center;background:#e3e9e2;color:#305b50;font:18px Arial,sans-serif;text-decoration:underline}.th-lightbox{position:fixed;inset:0;background:#000e;z-index:999999;display:flex;align-items:center;justify-content:center;padding:50px}.th-lightbox img{max-width:100%;max-height:90vh;object-fit:contain}.th-lightbox button{position:absolute;right:24px;top:20px;color:white;background:transparent;border:0;font-size:38px}.th-skip{position:fixed;top:-100px;left:20px;background:#fff;padding:12px;z-index:10000}.th-skip:focus{top:10px}
+@media(min-width:769px) and (max-width:1150px){#th-nav{gap:22px}#SITE_HEADER.th-header{padding:0 28px}}
+@media(max-width:768px){:root{--site-width:100vw!important;--screen-width:100vw!important}#SITE_CONTAINER,#main_MF,#site-root,#masterPage,#SITE_PAGES,#SITE_FOOTER{width:100%!important;min-width:0!important}#SITE_HEADER.th-header{height:90px;min-height:90px;padding:0 22px}.th-logo img{width:175px}.th-toggle{display:block;border:1px solid #7dac9e;border-radius:4px;background:#fff;padding:9px 12px;font:15px Arial,sans-serif}#th-nav{display:none;position:absolute;top:90px;left:0;right:0;background:#fff;padding:20px;box-shadow:0 10px 15px #0002;font-size:16px;align-items:stretch;gap:4px}#th-nav.open{display:flex;flex-direction:column}#th-nav>a,#th-nav .th-drop>button{padding:12px;text-align:left}#th-nav .th-contact{margin-top:8px;text-align:center}.th-sub{position:static;box-shadow:none;padding-left:12px}.th-drop:hover:not(.open):not(:focus-within) .th-sub{display:none}#SITE_PAGES [data-testid=mesh-container-content],#SITE_FOOTER [data-testid=mesh-container-content]{display:flex!important;flex-direction:column!important;height:auto!important;min-height:0!important;align-items:stretch!important;padding:0!important}#SITE_PAGES [data-testid=mesh-container-content]>*,#SITE_FOOTER [data-testid=mesh-container-content]>*{position:relative!important;left:auto!important;top:auto!important;margin:0!important;grid-area:auto!important;align-self:auto!important;max-width:100%!important;width:100%!important;transform:none!important}#SITE_PAGES .wixui-column-strip,#SITE_FOOTER .wixui-column-strip{width:100%!important;min-width:0!important;left:auto!important}#SITE_PAGES [data-testid=columns],#SITE_FOOTER [data-testid=columns]{display:flex!important;flex-direction:column!important;width:100%!important}#SITE_PAGES .wixui-column-strip__column,#SITE_FOOTER .wixui-column-strip__column{width:100%!important;flex:1 1 auto!important;margin:0!important;min-width:0!important}#SITE_PAGES .wixui-rich-text,#SITE_FOOTER .wixui-rich-text{padding:24px!important;box-sizing:border-box!important;height:auto!important;min-height:0!important}#SITE_PAGES .wixui-rich-text h1,#SITE_PAGES .wixui-rich-text h2{font-size:32px!important;line-height:1.15!important}#SITE_PAGES .wixui-rich-text h1 span,#SITE_PAGES .wixui-rich-text h2 span{font-size:inherit!important}#SITE_PAGES [data-testid=mesh-container-content]>.wixui-image{height:250px!important;margin:12px 0!important}#SITE_PAGES .wixui-section:has(>.QG9w8P img):has(>[data-testid=inline-content]>[data-testid=mesh-container-content]:empty){min-height:180px!important}#SITE_PAGES .wixui-section:has(.bgImage):first-child{min-height:200px}#SITE_PAGES .wixui-section:first-child .wixui-rich-text{padding-bottom:10px!important}#SITE_PAGES .wixui-google-map{min-height:220px}#SITE_FOOTER{padding:24px 0!important}#SITE_FOOTER .wixui-image{max-width:80px!important;margin:12px 24px!important}#SITE_FOOTER [data-testid=mesh-container-content]>.wixui-horizontal-menu,#SITE_FOOTER [data-testid=mesh-container-content]>.wixui-social-bar{margin:16px 24px!important}.th-gallery{min-height:320px}.th-lightbox{padding:15px}}
+/* Wix entrance animations are rendered immediately in the standalone theme. */
+.wixui-rich-text{opacity:1!important;visibility:visible!important}
+@media(min-width:769px){#SITE_HEADER.th-header{padding-right:max(30px,calc((100vw - 1146px)/2))}.th-logo,#th-nav{transform:translateY(-7px)}#th-nav{gap:44px;letter-spacing:.5px}}
+@media(max-width:768px){#SITE_PAGES div,#SITE_PAGES section,#SITE_FOOTER div,#SITE_FOOTER section{min-width:0!important;max-width:100%!important;box-sizing:border-box!important}#SITE_PAGES .wixui-rich-text,#SITE_FOOTER .wixui-rich-text{--min-width:0px!important;min-width:0!important;width:100%!important}#SITE_PAGES .wixui-rich-text>*,#SITE_FOOTER .wixui-rich-text>*{width:auto!important;max-width:100%!important;white-space:normal!important}#SITE_PAGES [data-testid=inline-content],#SITE_FOOTER [data-testid=inline-content]{width:100%!important}#SITE_PAGES [data-testid=columns]{flex-basis:auto!important}#SITE_PAGES .wixui-column-strip__column{flex-basis:auto!important}#SITE_PAGES .wixui-rich-text p{overflow-wrap:break-word!important}}
+@media(min-width:769px){.th-logo{transform:translateY(-13px)}#th-nav .th-contact{padding-left:24px;padding-right:24px}}
+
+/* Circular gallery navigation, matching the original Wix galleries. */
+.th-gallery-stage{position:relative;flex:1;min-height:180px;width:100%}
+.th-gallery-stage .th-gallery-main{height:100%;min-height:180px;display:block}
+.th-gallery-arrow{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;border-radius:50%;background:rgba(250,249,243,.92);color:#313831;padding:11px;display:grid;place-items:center;z-index:2}
+.th-gallery-arrow[hidden]{display:none!important}
+.th-gallery-prev{left:24px}.th-gallery-next{right:24px}
+.th-gallery-arrow svg{display:block;width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:round;stroke-linejoin:round}
+.th-gallery-arrow:hover{background:#fff}.th-thumbnails{position:relative;gap:18px;padding:6px 9px 4px;scrollbar-width:none}.th-thumbnails::-webkit-scrollbar{display:none}
+.th-thumbnails button{border:0}.th-thumbnails button.selected{opacity:.5}
+@media(max-width:768px){.th-gallery-prev{left:14px}.th-gallery-next{right:14px}}
+.th-gallery-stage .th-gallery-main{position:absolute;inset:0;min-height:0}
+.th-gallery-stage .th-gallery-main img{position:absolute;inset:0}
+.th-thumbnails{flex:0 0 108px}
+@media(max-width:768px){.th-gallery{height:320px!important;min-height:320px!important}.th-gallery-stage{min-height:0}}
+@media(min-width:769px){.th-gallery{height:auto}.th-gallery-stage{flex:none}#gallery-wrapper-comp-mo7cze5v .th-gallery-stage{height:204px}#gallery-wrapper-comp-mo7dvz5f .th-gallery-stage{height:225px}}
+
+/* Legibilidade do menu e dos botões Turtle Houses */
+#SITE_HEADER #th-nav a,
+#SITE_HEADER #th-nav button {
+  font-family: Arial, sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  letter-spacing: .3px !important;
+  color: #252922 !important;
+  -webkit-text-fill-color: #252922 !important;
+}
+#SITE_HEADER #th-nav .th-contact {
+  color: #253c33 !important;
+  -webkit-text-fill-color: #253c33 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+#SITE_HEADER #th-nav a:hover,
+#SITE_HEADER #th-nav button:hover {
+  text-decoration: underline;
+}
+
+/* Hover e foco visíveis nos controlos do cabeçalho. */
+#SITE_HEADER #th-nav a,
+#SITE_HEADER #th-nav button { transition: color .18s ease, background-color .18s ease, border-color .18s ease; }
+#SITE_HEADER #th-nav a:hover,
+#SITE_HEADER #th-nav a:focus-visible,
+#SITE_HEADER #th-nav button:hover,
+#SITE_HEADER #th-nav button:focus-visible {
+ color: #397f70 !important;
+ -webkit-text-fill-color: #397f70 !important;
+ text-decoration: none;
+}
+#SITE_HEADER #th-nav .th-sub a:hover,
+#SITE_HEADER #th-nav .th-sub a:focus-visible { background-color: #edf5f1 !important; }
+#SITE_HEADER #th-nav .th-contact:hover,
+#SITE_HEADER #th-nav .th-contact:focus-visible {
+ background-color: #396e5f !important;
+ border-color: #396e5f !important;
+ color: #fff !important;
+ -webkit-text-fill-color: #fff !important;
+}
+.th-toggle:hover { background-color: #edf5f1; }
